@@ -5,10 +5,7 @@ html,body{
 
 }
 
-form {
-	position:absolute;
-	right:0px;
-}
+
 
 #map {
 	height:100%;
@@ -26,4 +23,11 @@ form {
 .criteria {
 	position: absolute;
 	right:10%;
+}
+
+.submit_btn {
+	position:relative
+	left:0;
+	bottom:0;
+
 }

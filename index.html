@@ -1,28 +1,26 @@
-<html>
+<html lang="en">
 	<head>
 	</head>
 		<link rel="stylesheet" href="iron.css" type = "text/css"/>
 		<link rel="stylesheet" href="bootstrap.css" type="text/css"/>
 		<script src="map.js" type="text/javascript"></script>
+		<title>Lafayatte Renting </title>
 
 	<body>
 		<div id="map">
 		</div>
-		<div id = "form">
-
-			<form>
+		<form>
 				
-				<label>
-					 <input type="checkbox">Climate</input>
-				</label>
-				<label>
-					<input type="checkbox">Schools</input>
-				</label>
-					
-				
-				<button type="submit">Submit</button>
-			</form>
-		</div>
+			<label>
+				 <input type="checkbox">Climate</input>
+			</label>
+			<label>
+				<input type="checkbox">Schools</input>
+			</label>					
+			<div class="submit_btn">
+				<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+			</div>
+		</form>
 		<script async defer
 			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaTHlfdkePl9TZz5UalIW7jbdpKFHwOiU&callback=initMap">
 		</script>

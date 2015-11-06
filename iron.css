@@ -7,4 +7,18 @@ html,body{
 
 #map {
 	height:100%;
+	width: 65%;
+}
+
+#form {
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:100%;
+	width:35%;
+}
+
+.criteria {
+	position: absolute;
+	right:10%;
 }

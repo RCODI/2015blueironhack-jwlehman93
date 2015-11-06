@@ -2,13 +2,28 @@
 	<head>
 	</head>
 		<link rel="stylesheet" href="iron.css" type = "text/css"/>
-		<script src="map.js" type="text/javascript"/>
+		<link rel="stylesheet" href="bootstrap.css" type="text/css"/>
+		<script src="map.js" type="text/javascript"></script>
 
 	<body>
 		<div id="map">
 		</div>
+		<div id = "form">
+
+			<form>
+				<div class="criteria">
+					<label>
+						 <input type="checkbox">Climate</input>
+					</label>
+					<label>
+						<input type="checkbox">Schools</input>
+					</label>
+					
+				</div>
+		</div>
 		<script async defer
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaTHlfdkePl9TZz5UalIW7jbdpKFHwOiU&callback=initmap">
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaTHlfdkePl9TZz5UalIW7jbdpKFHwOiU&callback=initMap">
 		</script>
+
 	</body>
 </html>
